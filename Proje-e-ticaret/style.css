@@ -1,0 +1,212 @@
+
+.logo {
+  height: 45px;
+  width: auto;
+}
+
+.nav-bg {
+    background-color: rgb(238, 238, 238);
+}
+
+.nav-item .nav-link {
+    color: rgb(166, 85, 217);
+    font-weight: 22px;
+}
+
+
+.nav-item a{
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold
+}
+
+.nav-item a:hover {
+    color: black;
+}
+
+.logo-2 {
+    height: 200px;
+    width: auto;
+    border-radius: 30px;
+}
+
+h1 h2 {
+    font-size: 25px;
+    font-family: "Roboto Flex"
+}
+
+
+.arka-plan {
+  background-image: url(pai.jpeg);
+}
+
+
+.baslik {
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+    
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: #6b25d4;
+  }
+
+  .button:active {
+    background-color: #6b25d4;
+    transform: translateY(2px);
+  }
+
+  .baslikdisplay-2 {
+    color: #333333;
+    margin-top: 20px;
+    font-size: 36px;
+  }
+
+  .bg-image-2 {
+    background-image: url(pai.jpeg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    
+  }
+
+  .order {
+    position: absolute;
+    z-index: 999;
+    top: 25%
+  }
+
+
+
+.slider-item {
+    position: absolute;
+    z-index: 999;
+    top: 15%;
+    
+}
+
+/* FOOTER */
+
+
+
+.footer-button {
+  margin-top: 15px;
+  font-size: 15px;
+  border: none;
+  display: block;
+  color: #6b25d4;
+
+}
+
+.footer-button:hover {
+  text-decoration: underline;
+}
+
+.btn-social {
+  color: #6b25d4;
+  border: #fff;
+}
+
+.copyright {
+  background-color: black;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  color: #fff;
+  text-align: center;
+}
+
+/* Responsive */
+
+
+
+
+
+
+/* LogIn */
+.logIn-form2 {
+  margin-top: 15%;
+}
+
+.logIn-image {
+  height: 20px;
+  width: auto;
+}
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+  .slider-item {
+    text-align: center;
+  }
+  
+  .logo-2 {
+    margin-top: 0;
+    height: 80px;
+    width: auto;
+    top: 10%;
+  }
+  
+  .baslikdisplay-2 {
+    font-size: 12px;
+  }
+  
+  .display-3 {
+    font-size: 9px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .slider-item {
+    text-align: center;
+  }
+  
+  .logo-2 {
+    margin-top: 0;
+  }
+  
+  .baslikdisplay-2 {
+    font-size: 16px;
+  }
+  
+  .display-3 {
+    font-size: 11px;
+  }
+}
+
+
+.bg-image {
+  background-image: url(logpizza.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.basket {
+  size: 16px;
+}
+
+
+
+
+
+
+
+
+
